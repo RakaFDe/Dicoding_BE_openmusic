@@ -1,0 +1,7 @@
+    npm run start-dev
+    npm install pg
+    npm install node-pg-migrate
+    //tambah pada package.json
+    "migrate": "node-pg-migrate"
+        npm run migrate create "create table notes"
+        npm run migrate up
